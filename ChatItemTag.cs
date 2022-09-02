@@ -41,6 +41,14 @@ namespace ChatItemTag
             var plyChat = args.Text;
 
             if (ply == null) return;
+            //TODO check for TShock.Config.Settings.CommandSpecifier and TShock.Config.Settings.CommandSilentSpecifier
+            //instead of literal / or .
+            if (plyChat[0] == '/' || plyChat[0] == '.')
+            {
+                const string pat = @"(^/whisper)|(^/w)|(^/r)|(^\.whisper)|(^\.w)|(^\.r)|(^/bc)||(^/broadcast)";
+                var mat = Regex.Match(plyChat, pat);
+                if (!mat.Success) return;
+            }
 
             const string pattern = @"\[.*?\]";
             var match = Regex.Match(plyChat, pattern);
