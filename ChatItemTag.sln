@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatItemTag", "ChatItemTag.csproj", "{57D9E985-1634-490A-8E7D-E06CEDD27983}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatItemTag", "ChatItemTag\ChatItemTag.csproj", "{BB35EAF5-1EC2-4EAB-A873-24DD3C101821}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{57D9E985-1634-490A-8E7D-E06CEDD27983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57D9E985-1634-490A-8E7D-E06CEDD27983}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57D9E985-1634-490A-8E7D-E06CEDD27983}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57D9E985-1634-490A-8E7D-E06CEDD27983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB35EAF5-1EC2-4EAB-A873-24DD3C101821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB35EAF5-1EC2-4EAB-A873-24DD3C101821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB35EAF5-1EC2-4EAB-A873-24DD3C101821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB35EAF5-1EC2-4EAB-A873-24DD3C101821}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7886B41A-B727-466A-ADC9-D3AC28D3CFA0}
 	EndGlobalSection
 EndGlobal
